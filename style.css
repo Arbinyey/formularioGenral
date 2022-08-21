@@ -27,9 +27,10 @@
     border: none;
 }
 #button{
-    color: #c3fff7;
+    font-weight: bolder;
+    color: #004964;
     padding: 10px;
-    background-color: #11999e;
+    background-color: #B59C61;
     border: 0;
     border-radius:30px;
     box-shadow: 3px 2px 5px #a2a1a1;
@@ -40,14 +41,45 @@
 .biredes{
     color: #fff;
 }
+.binube{
+    color: #004964;
+}
 #idbiredes{
     color: #fff;
 }
 #idbifacbook{
     color: #fff;
 }
+
 .link{
     text-decoration: none;
     letter-spacing: 5px;
     font-weight: bold;
+}
+.rotulo{
+    margin-top: 10px;
+    line-height: 0;
+}
+.boxlogo{
+    height:fit-content;
+    width: fit-content;
+}
+.img-fluid{
+    border-radius:30px;
+    border:solid 5px #B59C61;
+}
+#logominjusticia{
+    border: none;
+}
+#imglogoinpec{
+    width: 20%;
+    border: none;
+    border-radius:0px;
+    
+}
+#boxlogo{
+    background: linear-gradient(to right,#fff,#fff,#B59C61,#fff,#fff);
+}
+#imgmapa{
+    border: none;
 }
