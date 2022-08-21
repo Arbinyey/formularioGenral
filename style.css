@@ -4,19 +4,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #franja1{
-    background:  linear-gradient(to right, #40514e,#11999e);
+    background:  linear-gradient(to right, #002938,#004964);
     height:5vh;
 }
 #franja2{
-    background: linear-gradient(to left,#11999e,#59fde7);
+    background: linear-gradient(to left,#004964,#0182b1);
     height:5vh;
 }
 #franja3{
-    background: linear-gradient(to right,#59fde7,#c3fff7);
+    background: linear-gradient(to right,#0182b1,#b2eaff);
     height:5vh;  
-}
-#colizq{
-    background: linear-gradient(to right,#59fde7);
 }
 
 #containerform{
@@ -38,16 +35,16 @@
     box-shadow: 3px 2px 5px #a2a1a1;
 }
 .bimenu{
-    color: #40514e;
+    color: #fff;
 }
 .biredes{
-    color: #c3fff7;
+    color: #fff;
 }
 #idbiredes{
-    color: #40514e;
+    color: #fff;
 }
 #idbifacbook{
-    color: #397a7c;
+    color: #fff;
 }
 .link{
     text-decoration: none;

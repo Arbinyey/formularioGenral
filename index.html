@@ -76,7 +76,8 @@
                 </div>
                 <div class="col-4 text-center align-self-center" >
                     <div class="col">
-                      <h1 class="display-5"><strong>Nuestras redes sociales</strong></h1>
+                        <img src="./img/LOGO REGIONAL nuevo.png" alt="logo inpec" class="img-fluid w-25" id="imglogoinpec">
+                        <h6>DS. Sánchez Arbinyey &#174;</h6>
                     </div>
                 </div>
                 <div class="col-6">
@@ -130,11 +131,11 @@ document.getElementById('form')
 <script>
     function onSubmit(){
     Event.preventDefault(); //evita que se actualice la página al enviar
-
-    const nombre = document.getElementById('idnom'); //obtener el campo de entrada
-    const email = document.getElementById('idemail');
-    const asunto = document.getElementById('idasunto');
-    const mensaje = document.getElementById('idmensaje');
+    //obtener el campo de entrada
+    const nombre = document.getElementsByName('nombre'); 
+    const email = document.getElementsByName('email');
+    const asunto = document.getElementByName('asunto');
+    const mensaje = document.getElementByName('mensaje');
 
     nombre.value = ''; //borrar el campo de entrada
     email.value = '';
