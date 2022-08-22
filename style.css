@@ -4,24 +4,30 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #franja1{
-    background:  linear-gradient(to right, #002938,#004964);
+    background:  linear-gradient(to bottom, #004964,#006b92);
     height:5vh;
 }
 #franja2{
-    background: linear-gradient(to left,#004964,#0182b1);
+    background: linear-gradient(to bottom,#006b92,#0294c9);
     height:5vh;
 }
 #franja3{
-    background: linear-gradient(to right,#0182b1,#b2eaff);
+    background: linear-gradient(to bottom,#0294c9,#006b92);
     height:5vh;  
 }
-
+#franja4{
+    background: linear-gradient(to bottom,#006b92,#004964);
+    height:5vh;  
+}
 #containerform{
     height: 70vh;
     background: linear-gradient(to right,#fff,#fff,#ececec,#f3f3f3,#ececec,#fff,#fff);
 }
 #idmensaje{
     height: 20vh;
+}
+#rowheader{
+    background: linear-gradient(to left,#004964,#fff,#fff,#fff,#fff,#fff);
 }
 .form-control{
     border: none;
@@ -53,33 +59,55 @@
 
 .link{
     text-decoration: none;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-weight: bold;
 }
+.link:hover{
+    font-size: 1.2rem;
+    transition:0.5s;
+}
+
 .rotulo{
     margin-top: 10px;
     line-height: 0;
 }
-.boxlogo{
-    height:fit-content;
-    width: fit-content;
-}
 .img-fluid{
     border-radius:30px;
-    border:solid 5px #B59C61;
+    border:solid 5px #B59C61;  
 }
+
 #logominjusticia{
     border: none;
 }
 #imglogoinpec{
-    width: 20%;
+    width:10vh;
     border: none;
-    border-radius:0px;
-    
+    border-radius:0px;  
 }
 #boxlogo{
     background: linear-gradient(to right,#fff,#fff,#B59C61,#fff,#fff);
 }
 #imgmapa{
     border: none;
+    height: 50vh;
 }
+#imgletrasregional{
+    border:none;
+    border-radius:0px;
+}
+#imgletrasnoroeste{
+    border:none;
+    border-radius:0px;  
+}
+#imgclasificacion{
+    border:none;
+}
+#imgedificio{
+    border:none;
+    border-radius: 50%;
+}
+#imgUbicacion{
+    border:none;
+    border-radius: 50%;
+}
+
