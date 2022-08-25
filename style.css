@@ -26,9 +26,7 @@
 #idmensaje{
     height: 20vh;
 }
-#rowheader{
-    background: linear-gradient(to left,#004964,#fff,#fff,#fff,#fff,#fff);
-}
+
 .form-control{
     border: none;
 }
@@ -80,7 +78,7 @@
     border: none;
 }
 #imglogoinpec{
-    width:10vh;
+    width:15vh;
     border: none;
     border-radius:0px;  
 }
@@ -109,5 +107,9 @@
 #imgUbicacion{
     border:none;
     border-radius: 50%;
+}
+#imgletrainpec{
+    border:none;
+    border-radius:0px;
 }
 
